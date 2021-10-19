@@ -1,0 +1,381 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+html{
+    font-family: 'Open Sans', sans-serif;
+}
+#main-image{
+     width: 390px;
+    height: 73px;
+    background: url('image/entete.jpg');
+    margin-left: 100px;
+    margin-top: 10px;
+}
+header div nav ul li{
+    display: inline-block;
+    margin-left: 70px;
+    margin-top: 20px;
+    background-color: rebeccapurple;
+}
+nav ul li{
+    display: inline-block;
+    float: right;
+}
+
+
+
+
+#wrap{
+width: 100%; 
+height: 50px;
+margin-top: 10px;
+margin-right: 0px;
+margin-left: 0px;
+z-index: 99; 
+position: relative; 
+background-color: #006c8e;
+}
+
+.navbar{
+height: 30px;
+padding: 0;
+margin: 0;
+position: relative;
+margin-right: 0px;
+}
+
+.navbar li {
+height: 50px;
+width: 135.8px; 
+float: left;  
+text-align: center; 
+list-style: none;  
+font font-family: "Open Sans",Arial,sans-serif;  
+padding: 0;
+margin: 0;
+background-color: #006c8e;
+text-transform: none; 
+   
+}
+
+.navbar a:hover,r{
+    background-color: white;
+    color: blue;
+}
+.button-1:hover{
+     background: skyblue;
+    border-color: #2aafea #2aafea #1494cd;
+    color: white;
+}
+
+.navbar a{							
+padding: 18px 0;  
+border-left: 1px solid rgba(0,0,0,.1);
+text-decoration: none; 
+color: white; 
+display: block;
+font-size : 12px;
+font-weight: bold;
+}
+
+.navbar li:hover, a:hover {
+background-color: black;
+}
+
+.navbar li ul{
+display: none;
+height: auto;									
+margin: 0; 
+padding: 0; 
+}
+
+.navbar li:hover ul{
+display: block;
+}
+
+.navbar li ul li{
+background-color: red;
+}
+
+.navbar li ul li a{
+border-left: 1px yellow; 
+border-right: 1px solid #444444; 
+border-top: 1px solid #c9d4d8; 
+border-bottom: 1px solid #444444; 
+}
+
+
+.d1{
+    width: 100%;
+    height: 700px;
+    margin: 50px auto;
+    background-color: #EDEDED;
+    
+    background-size: cover;
+    animation: fondu 15s ease-in-out infinite both;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    }
+.conteneur{
+    max-width: 576px;
+    margin: 50px auto;
+}
+
+
+@keyframes fondu{
+    0%{background-image: url("image/hotel1.jpg");}
+    50%{background-image: url("image/hotel2.jpg");}
+    100%{background-image: url("image/hotel3.jpg");}
+}
+
+.line{
+    width: 50px;
+    height: 3px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #2aafea;
+    border: 0;
+    }
+
+div h2 center{
+    margin-top: 20px;
+    font-size: 21px;
+    font-weight: 300;
+    line-height: 1.4;
+    color: #1d2127
+}
+
+.button-1{
+    display: block;
+    width: 120px;
+    height: 50px;
+    text-shadow: 0 -1px 0 rgb(0 0 0 / 25%);
+    background: #2aafea;
+    border-color: #2aafea #2aafea #1494cd;
+    font-size: 20px;
+    color: white;
+    margin: 0 auto;
+    line-height: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+
+div{
+    text-align: center;
+}
+
+.poutine{
+    display: flex;
+    flex-direction: row;
+     margin-left: 10%; 
+   align-content: center;
+ text-align: center;
+ flex-basis: center;
+}
+.poutine img{
+    margin: 25px;
+}
+
+.line2{
+    background-image: linear-gradient(to right,transparent,#dbdbdb,transparent);
+    border: 0;
+    border-top-color: initial;
+    border-top-style: initial;
+    border-top-width: 0px;
+    border-right-color: initial;
+    border-right-style: initial;
+    border-right-width: 0px;
+    border-bottom-color: initial;
+    border-bottom-style: initial;
+    border-bottom-width: 0px;
+    border-left-color: initial;
+    border-left-style: initial;
+    border-left-width: 0px;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+    height: 1px;
+    margin: 22px 0;
+    margin-top: 22px;
+    margin-right: 0px;
+    margin-bottom: 22px;
+    margin-left: 0px;
+}
+
+
+.image{
+    width: 100%;
+    margin-left: 0px;
+    margin-right: 0px; 
+    margin-top: 20px;
+}
+.image img{
+    width: 100%;
+}
+
+.en-bas{
+    background-color: #535b6c;
+    width: 100%;
+    height: 400px;
+    margin-top: 0px;
+    
+}
+
+.head-img{
+    width: 100%;
+    height: 284px;
+    background-image: url("./image/pisine6.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-position: center;  */
+}
+
+.container{
+    width: 85%;
+    margin: 0 auto;
+}
+.hotel {
+    margin-bottom: 15px;
+}
+.hotel h1{
+    font-size: 33.5px;
+    text-align: start;
+
+}
+.hotel .bar{
+    width: 60px;
+    height: 3px;
+    background-color: #006c8e;
+}
+.section1{
+    width: 100%;
+    /* margin: 0 auto; */
+    display: flex;
+    flex-direction: row;
+}
+.section1 img{
+    width: 294px;
+    height: 196px;
+}
+.section1 p{
+    width: 90%;
+    text-align: left;
+    font-size: 21px;
+   line-height: 1.4;
+   margin-right: 10%;
+}
+.container h2{
+    text-align: start;
+}
+.section2 img{
+    width: 455px;
+    height: 255px;
+    margin-top: 20px;
+}
+.section2{
+    display: flex;
+    flex-direction: row;
+}
+.section2 ul{
+    list-style: none;
+    text-align: start;
+}
+.section2 ul li svg{
+    width: 14px;
+    height: 14px;
+    margin-right: 10px;
+
+}
+.section2 ul li{
+    margin:15px 0;
+}
+
+.container .sep{
+    width: 80%;
+    margin: 0 auto;
+    height: 1px;
+    background-color: rgba(173, 173, 173,0.3);
+}
+#wrap .button{
+    display: none;
+
+}
+@media screen and (max-width:768px) {
+    .section1 p{
+        font-size: 16px;
+        width: 100%;
+        word-wrap: none;
+    }
+    .container{
+        width: 100%;
+    }
+    .section1 img,.section2 img{
+        width: 95%;
+        margin: 0 2.5%;
+        height: auto;
+    }
+    .section1,.section2{
+        display: inline-block;
+    }
+    .section2 ul{
+      margin-left:-24px ; 
+    }
+    .section2 ul li{
+        white-space: nowrap;
+        
+        font-size: 14px;
+    }
+    #wrap ul{
+        display: none;
+
+    }
+    #wrap .button{
+        position: absolute;
+       width: 50px;
+        display: flex;
+        background-color: #2aafea;
+        padding-left: 8px;
+        padding-right: 8px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        color: white;
+        right: 5px;
+        top: 9px;
+    }
+    #main-image{
+        margin: 10px;
+    }
+}
+
+footer div section h4{
+    float: right;
+    margin-right: 20px;
+    margin-top: 300px;
+}
+
+footer div section li ul{
+    display: inline-flex;
+    margin-top: 100px;
+    margin-left: 20px;
+    float: right; 
+}
+
+footer div section img{
+    margin-top: 35px;
+    
+}
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
